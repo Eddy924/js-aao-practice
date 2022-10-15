@@ -11,7 +11,7 @@ function plusTen(num) {
     return num + 10;
 }
 
-
+console.log(plusTen(90));
 /*
     Original:
     Write a function `printFives(max)` that prints out the multiples of 5 that
@@ -28,6 +28,9 @@ function returnSevens(max) {
         }
     }
 }
+
+returnSevens(50);
+
 
 
 /*
@@ -47,6 +50,7 @@ function bothStringsIncluded(sentence, word1, word2) {
     return sentence.includes(word1) && sentence.includes(word2);
 }
 
+console.log(bothStringsIncluded("what da dog doin", "da", "what"));
 
 /*
     Original:
@@ -66,6 +70,7 @@ function productArray(arr) {
     return product;
 }
 
+console.log(productArray([5, 8, 2]));
 
 /*
     Original:
@@ -79,7 +84,7 @@ function productArray(arr) {
 function fiveAndEleven(num) {
     return num % 5 === 0 && num % 11 === 0;
 }
-
+console.log(fiveAndEleven(55));
 
 /*
     Original:
@@ -100,6 +105,7 @@ function countConsonants(word) {
     }
     return count;
 }
+console.log(countConsonants("lolwhat"));
 
 // another method of consonant counter
 /* function countConsonants(word) {
@@ -136,7 +142,7 @@ function countConsonants(word) {
 function whisper(str) {
     return str.toLowerCase();
 }
-
+console.log(whisper("AAa"));
 // alternating letters
 function alternatingLetters(str) {
     var altString = "";
@@ -150,6 +156,8 @@ function alternatingLetters(str) {
     }
     return altString;
 }
+
+console.log(alternatingLetters("aaaa"));
 
 module.exports = {
     plusTen,
