@@ -137,7 +137,7 @@ function whisper(str) {
     return str.toLowerCase();
 }
 
-
+// alternating letters
 function alternatingLetters(str) {
     var altString = "";
     for (i = 0; i < str.length; i++){
